@@ -1,0 +1,515 @@
+body{
+  perspective: 1000px;
+  background: 
+  linear-gradient(
+    45deg, 
+    #a9a9a9 25%, 
+    transparent 25%, 
+    transparent 75%, 
+    #a9a9a9 75%
+  ),
+  linear-gradient(
+    45deg, 
+    #a9a9a9 25%, 
+    transparent 25%, 
+    transparent 75%, 
+    #a9a9a9 75%
+  );
+  background-color: #a4a4a4;
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+$w:300px;
+.skirt-css3d{
+  transform-style: preserve-3d;
+  transition: all 300ms 0s ease;
+  width:45px;
+  height: 45px;
+  position: relative;
+  margin: 0 auto;
+  transform-origin: center;
+  transform: rotateX(60deg) rotateZ(20deg);
+  .belt{
+    transform-style: preserve-3d;
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 5rem;
+    background-color: #523a73;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    .top{
+      width: 42px;
+      height: 42px;
+      border-radius: 5rem;
+      background-color: #865faa;
+      transform-style: preserve-3d;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transform: translateZ(3px);
+
+    }
+    .bottom{
+      width: 42px;
+      height: 42px;
+      border-radius: 5rem;
+      background-color: #523a73;
+      transform-style: preserve-3d;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transform: translateZ(1.5px);
+
+    }
+    .p{
+      
+    transform-style: preserve-3d;
+      @for $i from 1 to 36 {
+        &.p#{$i}{
+          display: block;
+          background-color: #523a73;
+          height: 3px;
+          width: 42px;
+          transform-origin:center;
+          transform: rotateX(90deg) rotateY(-10deg*$i) translateY(1.5px);
+          position: absolute;
+          top: 20px;
+          &::before{
+            content: "";
+            display: block;
+            background-color: #523a73;
+            height: 3px;
+            width: 42px;
+            transform-origin:center;
+            transform: rotateY(-15deg*$i);
+            position: absolute;
+
+          }
+          &::after{
+            content: "";
+            display: block;
+            background-color: #523a73;
+            height: 3px;
+            width: 42px;
+            transform-origin:center;
+            transform: rotateY(-7deg*$i);
+            position: absolute;
+
+          }
+        }
+      }
+    }
+  }
+  .plaits{
+
+    transform-style: preserve-3d;
+    position: absolute;
+    width:40px;
+    height: 40px;
+    top: 1.5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transform: translateZ(-3px);
+    .top{
+      position: absolute;
+      top: 20px;
+      left: 15px;
+      .p{
+        transform-style: preserve-3d;
+        position: absolute;
+        width: 10px;
+        height: 40px;
+        background:
+        linear-gradient(
+          -188deg ,
+          #523a73,
+          #00000000 98%,
+          #00000000 0,
+          #00000000 100%
+          ),
+        linear-gradient(
+          -188deg ,
+        #865fbc 85%,
+        #fff 0,
+         #fff 88%,
+         #865fbc 0,
+         #865fbc 90%,
+         #fff 0,
+         #fff 95%,
+        #00000000 0,
+        #00000000 98%) ;
+        transform-origin: top center;
+
+        &::after{
+          display: block;
+          content: "";
+          width: 4px;
+          height: 40px;
+          background:
+          linear-gradient(
+            -188deg ,
+            #00000099,
+            #00000000 98%,
+            #00000000 0,
+            #00000000 100%
+            ),  linear-gradient(
+            -188deg ,
+          #865fbc 85%,
+          #fff 0,
+           #fff 88%,
+           #865fbc 0,
+           #865fbc 90%,
+           #fff 0,
+           #fff 95%,
+          #00000000 0,
+          #00000000 98%);
+          position: absolute;
+          transform-origin: left center;
+          z-index: 10;
+          transform: rotateY(36deg);
+        }
+        &::before{
+          display: block;
+          content: "";
+          width: 4px;
+          height: 40px;
+          background:
+          linear-gradient(
+            -188deg ,
+            #00000099,
+            #00000000 98%,
+            #00000000 0,
+            #00000000 100%
+            ),  linear-gradient(
+            -188deg ,
+          #865fbc 85%,
+          #fff 0,
+           #fff 88%,
+           #865fbc 0,
+           #865fbc 90%,
+           #fff 0,
+           #fff 95%,
+          #00000000 0,
+          #00000000 98%);
+          position: absolute;
+          transform-origin: left center;
+          z-index: 20;
+          transform: translateZ(-1.8px) translateX(-0.8px) rotateY(6deg);
+          }
+        // &::after{
+        //   display: block;
+        //   content: "";
+        //   color: #fff;
+        //   position: absolute;
+        //   border-bottom: #00000000 solid 256px;
+        //   border-left: #00000000 solid 0px;
+        //   border-right: black solid 5px;
+        //   left:  -5px;
+        // }
+        // &::before{
+        //   display: block;
+        //   content: "";
+        //   position: absolute;
+        //   border-bottom: #00000000 solid 256px;
+        //   border-right: #00000000 solid 0px;
+        //   border-left: black solid 5px;
+        //   right:  -5px;
+
+        // }
+        @for $i from 1 to 25 {
+          &.p#{$i}{
+            // top: 100px;
+            // background-color: #000#{$i};
+            transform: rotateZ(-18deg*$i) rotateX(-82deg) translatez(20px)  rotateY(9deg);
+          }
+        }
+        // width: $w/24;
+        // height: 100px;
+        // background-color: black;
+        // position: absolute;
+        // top: 0;
+        // &::before{
+        //   display: block;
+        //   content: "";
+        //   width: 50%;
+        //   height: 100px;
+        //   background-color: #a4a4a4;
+        //   transform-origin: left;
+        //   transform: rotateY(-40deg);
+        //   left: 0;
+        //   position: absolute;
+        // }
+        // &::after{
+        //   display: block;
+        //   content: "";
+        //   width: 50%;
+        //   height: 100px;
+        //   background-color: #a4a4a4;
+        //   transform-origin: right;
+        //   transform: rotateY(40deg);
+        //   right: 0;
+        //   position: absolute;
+        // }
+
+        // &.p1 {
+        //   position: absolute;
+        //   left: 0;
+        //   top: 0;
+        //   transform-origin: left;
+        //   transform: 
+        //   rotateY(0deg)  
+        // }
+        // &.p2 {
+        //   position: absolute;
+        //   left: 0;
+        //   top: 0;
+        //   transform-origin: left;
+        //   transform: 
+        //   rotateY(90deg)  
+        // }
+        // &.p3 {
+        //   position: absolute;
+        //   left: 0;
+        //   top: 0;
+        //   transform-origin: left;
+        //   transform: 
+        //   rotateY(180deg)  
+        // }
+        // &.p4 {
+        //   position: absolute;
+        //   left: 0;
+        //   top: 0;
+        //   transform-origin: left;
+        //   transform: 
+        //   rotateY(256deg)  
+        // }
+        // // &.p1 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(15deg)  
+        // //   translateX(0.1px)
+        // //   translateZ(-0.1px);
+        // // }
+        // // &.p2 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(30deg)  
+        // //   translateX(1.6px)
+        // //   translateZ(-4.6px);
+        // // }
+        // // &.p3 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(45deg)  
+        // //   translateX(6.7px)
+        // //   translateZ(-10.7px);
+        // // }
+        // // &.p4 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(60deg)  
+        // //   translateX(15.6px)
+        // //   translateZ(-18px);
+        // // }
+        // // &.p5 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(75deg)  
+        // //   translateX(29px)
+        // //   translateZ(-24px);
+        // // }
+        // // &.p6 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(90deg)  
+        // //   translateX(46.8px)
+        // //   translateZ(-26.8px);
+        // // }
+        // // &.p7 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(15deg)  
+        // //   translateX(0.1px)
+        // //   translateZ(-0.1px);
+        // // }
+        // // &.p8 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(30deg)  
+        // //   translateX(1.6px)
+        // //   translateZ(-4.6px);
+        // // }
+        // // &.p9 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(45deg)  
+        // //   translateX(6.7px)
+        // //   translateZ(-10.7px);
+        // // }
+        // // &.p10 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(60deg)  
+        // //   translateX(15.6px)
+        // //   translateZ(-18px);
+        // // }
+        // // &.p11 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(75deg)  
+        // //   translateX(29px)
+        // //   translateZ(-24px);
+        // // }
+        // // &.p12 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(90deg)  
+        // //   translateX(46.8px)
+        // //   translateZ(-26.8px);
+        // // }
+        // // &.p13 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(15deg)  
+        // //   translateX(0.1px)
+        // //   translateZ(-0.1px);
+        // // }
+        // // &.p14 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(30deg)  
+        // //   translateX(1.6px)
+        // //   translateZ(-4.6px);
+        // // }
+        // // &.p15 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(45deg)  
+        // //   translateX(6.7px)
+        // //   translateZ(-10.7px);
+        // // }
+        // // &.p16 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(60deg)  
+        // //   translateX(15.6px)
+        // //   translateZ(-18px);
+        // // }
+        // // &.p17 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(75deg)  
+        // //   translateX(29px)
+        // //   translateZ(-24px);
+        // // }
+        // // &.p18 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(90deg)  
+        // //   translateX(46.8px)
+        // //   translateZ(-26.8px);
+        // // }
+        // // &.p19 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(15deg)  
+        // //   translateX(0.1px)
+        // //   translateZ(-0.1px);
+        // // }
+        // // &.p20 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(30deg)  
+        // //   translateX(1.6px)
+        // //   translateZ(-4.6px);
+        // // }
+        // // &.p21 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(45deg)  
+        // //   translateX(6.7px)
+        // //   translateZ(-10.7px);
+        // // }
+        // // &.p22 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(60deg)  
+        // //   translateX(15.6px)
+        // //   translateZ(-18px);
+        // // }
+        // // &.p23 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(75deg)  
+        // //   translateX(29px)
+        // //   translateZ(-24px);
+        // // }
+        // // &.p24 {
+        // //   transform-origin: center;
+        // //   transform: 
+        // //   rotateY(90deg)  
+        // //   translateX(46.8px)
+        // //   translateZ(-26.8px);
+        // // }
+        // @for $i from 1 through 24 {
+        //   &.p#{$i} {
+        //     // left: $w/24*$i;
+        //     &::before{
+
+        //     }
+        //     &::after{
+
+        //     }
+
+        //   }
+        //     @if $i>0 {
+
+        //     }
+        //     // @if $i>3 {
+        //     //   &.p#{$i} {
+        //     //     transform-origin: center;
+        //     //     transform: 
+        //     //     rotateY((15*$i)+deg )  
+        //     //     translateX(1.5px*$i*2)
+        //     //     translateZ(-1.5px*$i*2);
+        //     //   }
+        //     //   &.p#{$i} {
+        //     //     background-color: yellow;
+        //     //   }
+
+        //     // }
+        //     @if $i>4 {
+        //       &.p#{$i} {
+        //         display: none;
+        //       }
+        //     }
+        //     // @if $i>24/4*2 {
+        //     //   &.p#{$i} {
+        //     //     background-color: blue;
+        //     //   }
+        //     // }
+        //     // @if $i>24/4*3 {
+        //     //   &.p#{$i} {
+        //     //     background-color: red;
+        //     //   }
+        //     // }
+        // }
+      }
+    }
+    .middle{
+
+    }
+    .bottom{
+
+    }
+  }
+}
