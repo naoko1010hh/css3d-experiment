@@ -1,0 +1,59 @@
+.css3d {
+  perspective: 1000px;
+  position: relative;
+  background: linear-gradient(45deg, #a9a9a9 25%, transparent 25%, transparent 75%, #a9a9a9 75%), linear-gradient(45deg, #a9a9a9 25%, transparent 25%, transparent 75%, #a9a9a9 75%);
+  background-color: #a4a4a4;
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; }
+  .css3d .background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/back.png); }
+    .css3d .background > .top, .css3d .background > .bottom, .css3d .background > .left, .css3d .background > .right, .css3d .background > .back {
+      position: absolute;
+      transform-style: preserve-3d;
+      transition: all 3s 0s ease;
+      width: 100vw;
+      height: 100vh;
+      background-color: #99999999;
+      transform: translateZ(-100vh);
+      margin: 0 auto; }
+    .css3d .background > .top {
+      transform-origin: top;
+      transform: translateZ(-100vh) rotateX(90deg);
+      background: linear-gradient(#99999999 0, #00000000 100%); }
+    .css3d .background > .bottom {
+      transform-origin: bottom;
+      transform: translateZ(-100vh) rotateX(-90deg);
+      background: linear-gradient(#00000000 0, #99999999 100%); }
+    .css3d .background > .right {
+      width: 100vw;
+      transform-origin: right;
+      transform: translateZ(-100vh) rotateY(90deg);
+      background: linear-gradient(-90deg, #99999999 0, #00000000 80%); }
+    .css3d .background > .left {
+      transform-origin: left;
+      transform: translateZ(-100vh) rotateY(-90deg);
+      background: linear-gradient(90deg, #99999999 0, #00000000 80%); }
+  .css3d .ichigo-css3d {
+    display: block;
+    transform-style: preserve-3d;
+    position: relative;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background-color: #ff6060; }
+    .css3d .ichigo-css3d .calyx {
+      width: 30px;
+      height: 15px;
+      transform: rotate(-15deg);
+      background-color: greenyellow; }
+
+/*# sourceMappingURL=style.css.map */
