@@ -1,0 +1,375 @@
+body {
+  background: linear-gradient(45deg, #a9a9a9 25%, transparent 25%, transparent 75%, #a9a9a9 75%), linear-gradient(45deg, #a9a9a9 25%, transparent 25%, transparent 75%, #a9a9a9 75%);
+  background-color: #a4a4a4;
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; }
+
+.skirt-css3d {
+  transform-style: preserve-3d;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  transform-origin: center;
+  transform: scale(5) translateY(-50%) rotateY(30deg) rotateX(100deg) rotateZ(20deg);
+  animation: rotate 6s infinite linear; }
+  .skirt-css3d .belt {
+    transform-style: preserve-3d;
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 5rem;
+    background-color: #523a73;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+    .skirt-css3d .belt::before {
+      content: "";
+      display: block;
+      width: 42px;
+      height: 42px;
+      border-radius: 5rem;
+      background-color: #523a73;
+      transform-style: preserve-3d;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transform: translateZ(3.4px); }
+    .skirt-css3d .belt::after {
+      content: "";
+      display: block;
+      width: 42px;
+      height: 42px;
+      border-radius: 5rem;
+      background-color: #523a73;
+      transform-style: preserve-3d;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transform: translateZ(1.5px); }
+    .skirt-css3d .belt .p {
+      transform-style: preserve-3d; }
+      .skirt-css3d .belt .p.p1 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-10deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p2 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-20deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p3 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-30deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p4 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-40deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p5 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-50deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p6 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-60deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p7 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-70deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p8 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-80deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p9 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-90deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p10 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-100deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p11 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-110deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p12 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-120deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p13 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-130deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p14 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-140deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p15 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-150deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p16 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-160deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p17 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-170deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p18 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-180deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p19 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-190deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p20 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-200deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p21 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-210deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p22 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-220deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p23 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-230deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p24 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-240deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p25 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-250deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p26 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-260deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p27 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-270deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p28 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-280deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p29 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-290deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p30 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-300deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p31 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-310deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p32 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-320deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p33 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-330deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p34 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-340deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+      .skirt-css3d .belt .p.p35 {
+        display: block;
+        background-color: #523a73;
+        height: 3px;
+        width: 42px;
+        transform-origin: center;
+        transform: rotateX(90deg) rotateY(-350deg) translateY(1.5px);
+        position: absolute;
+        top: 20px; }
+
+/*# sourceMappingURL=style.css.map */

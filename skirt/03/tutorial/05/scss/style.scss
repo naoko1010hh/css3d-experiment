@@ -1,0 +1,101 @@
+$back1:#a9a9a9;
+$back2:#a4a4a4;
+
+$skirt1:#865fbc;
+$skirt2:#523a73;
+$skirt3:#fff;
+$skirt4:#00000000;
+$skirt5:#00000099;
+
+body{
+  background: 
+  linear-gradient(
+    45deg, 
+    $back1 25%, 
+    transparent 25%, 
+    transparent 75%, 
+    $back1 75%
+  ),
+  linear-gradient(
+    45deg, 
+    $back1 25%, 
+    transparent 25%, 
+    transparent 75%, 
+    $back1 75%
+  );
+  background-color: $back2;
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.skirt-css3d{
+  transform-style: preserve-3d;
+  width:45px;
+  height: 45px;
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  transform-origin: center;
+  transform: scale(5) translateY(-50%) rotateY(30deg) rotateX(100deg) rotateZ(20deg);
+  animation:rotate 6s infinite linear;
+  .belt{
+    transform-style: preserve-3d;
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 5rem;
+    background-color: $skirt2;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    &::before{
+      content: "";
+      display: block;
+      width: 42px;
+      height: 42px;
+      border-radius: 5rem;
+      background-color: $skirt2;
+      transform-style: preserve-3d;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transform: translateZ(3.4px);
+
+    }
+    &::after{
+      content: "";
+      display: block;
+      width: 42px;
+      height: 42px;
+      border-radius: 5rem;
+      background-color: $skirt2;
+      transform-style: preserve-3d;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      transform: translateZ(1.5px);
+
+    }
+    .p{
+      
+    transform-style: preserve-3d;
+      @for $i from 1 to 36 {
+        &.p#{$i}{
+          display: block;
+          background-color: $skirt2;
+          height: 3px;
+          width: 42px;
+          transform-origin:center;
+          transform: rotateX(90deg) rotateY(-10deg*$i) translateY(1.5px);
+          position: absolute;
+          top: 20px;
+        }
+      }
+    }
+  }
+}
