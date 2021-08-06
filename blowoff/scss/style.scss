@@ -1,0 +1,67 @@
+body{
+    background-color: #555;
+}
+$w:40vw;
+$h:40vw;
+$font:16px;
+$padding:22px;
+$arrow:16px;
+$radius:.5rem;
+$c1:#fff;
+$c2:#000;
+$fu:5px;
+.rl{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+.blowoff{
+    display: inline-block;
+    position: relative;
+    left: 0;
+    top: 0;   
+    padding: $arrow*2;
+    font-size: 0;
+    .square{
+        display: inline-block;
+        color: $c1;
+        line-height: 1.7;
+        letter-spacing:2px;
+        border-radius: $radius;
+        font-size: $font;
+        transform-origin: center;
+        padding: $padding;
+        background-color: $c2;
+    }
+    .top,.left,.right,.bottom{
+
+        border: $arrow solid transparent;
+        position: absolute;
+        width: 1px;
+    }
+    .top{
+        top: 1px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        border-bottom: $arrow solid $c2;
+    }
+    .bottom{
+        bottom: 1px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        border-top: $arrow solid $c2;
+    }
+    .left{
+        top: 50%;
+        left: 1px;
+        margin-top: -$arrow;
+        border-right: $arrow solid $c2;
+    }
+    .right{
+        top: 50%;
+        right: 1px;
+        margin-top: -$arrow;
+        border-left: $arrow solid $c2;
+    }
+}
