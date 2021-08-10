@@ -1,0 +1,687 @@
+body {
+  background: linear-gradient(45deg, #999 25%, transparent 25%, transparent 75%, #999 75%), linear-gradient(45deg, #999 25%, transparent 25%, transparent 75%, #999 75%);
+  background-color: #888;
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; }
+
+.lolidress {
+  width: 860px;
+  height: 1220px;
+  background: url(https://m.media-amazon.com/images/I/81RAHWSmIkL._AC_SL1500_.jpg);
+  background-position: 22px, 0px;
+  background-size: cover;
+  position: relative;
+  filter: drop-shadow(5px 5px 0 red) drop-shadow(-3px -3px 0 red); }
+  .lolidress > .dress {
+    display: block;
+    width: 430px;
+    position: absolute;
+    top: 0; }
+    .lolidress > .dress.right {
+      transform-origin: right;
+      transform: rotateY(180deg); }
+    .lolidress > .dress > .up > .lace {
+      width: 430px;
+      position: relative;
+      top: 200px;
+      right: 0;
+      z-index: 50; }
+      .lolidress > .dress > .up > .lace .c {
+        width: 191.1111111111px;
+        height: 24px;
+        background: #fff;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform-origin: bottom right;
+        border-top: 1px #f0f0f0 solid;
+        border-bottom: 1px #f0f0f0 solid;
+        border-right: 1px #f0f0f0 solid;
+        border-left: 1px #f0f0f0 solid;
+        border-radius: 5%; }
+      .lolidress > .dress > .up > .lace .c1 {
+        transform: rotate(-6.92deg); }
+      .lolidress > .dress > .up > .lace .c2 {
+        transform: rotate(-13.84deg); }
+      .lolidress > .dress > .up > .lace .c3 {
+        transform: rotate(-20.76deg); }
+      .lolidress > .dress > .up > .lace .c4 {
+        transform: rotate(-27.68deg); }
+      .lolidress > .dress > .up > .lace .c5 {
+        transform: rotate(-34.6deg); }
+      .lolidress > .dress > .up > .lace .c6 {
+        transform: rotate(-41.52deg); }
+      .lolidress > .dress > .up > .lace .c7 {
+        transform: rotate(-48.44deg); }
+      .lolidress > .dress > .up > .lace .c8 {
+        transform: rotate(-55.36deg); }
+      .lolidress > .dress > .up > .lace .c9 {
+        transform: rotate(-62.28deg); }
+      .lolidress > .dress > .up > .lace .c10 {
+        transform: rotate(-69.2deg); }
+      .lolidress > .dress > .up > .lace .c11 {
+        transform: rotate(-76.12deg); }
+      .lolidress > .dress > .up > .lace .c12 {
+        transform: rotate(-83.04deg); }
+      .lolidress > .dress > .up > .lace .c13 {
+        transform: rotate(-89.96deg); }
+      .lolidress > .dress > .up > .lace .c0 {
+        width: 191.1111111111px; }
+      .lolidress > .dress > .up > .lace .c1 {
+        width: 182.9787234043px; }
+      .lolidress > .dress > .up > .lace .c2 {
+        width: 179.1666666667px; }
+      .lolidress > .dress > .up > .lace .c3 {
+        width: 182.9787234043px; }
+      .lolidress > .dress > .up > .lace .c4 {
+        width: 186.9565217391px; }
+      .lolidress > .dress > .up > .lace .c5 {
+        width: 186.9565217391px; }
+      .lolidress > .dress > .up > .lace .c6 {
+        width: 191.1111111111px; }
+      .lolidress > .dress > .up > .lace .c7 {
+        width: 195.4545454545px; }
+      .lolidress > .dress > .up > .lace .c8 {
+        width: 200px; }
+      .lolidress > .dress > .up > .lace .c9 {
+        width: 204.7619047619px; }
+      .lolidress > .dress > .up > .lace .c10 {
+        width: 209.756097561px; }
+      .lolidress > .dress > .up > .lace .c11 {
+        width: 215px; }
+      .lolidress > .dress > .up > .lace .c12 {
+        width: 220.5128205128px; }
+      .lolidress > .dress > .up > .lace .c13 {
+        width: 226.3157894737px; }
+    .lolidress > .dress > .up > .bass.blue {
+      background-color: #D1D7E6;
+      width: 172px;
+      height: 264px;
+      right: 0;
+      top: 204.7619047619px;
+      position: absolute;
+      border-top-left-radius: 20%;
+      border-bottom-left-radius: 40%;
+      border-left: #b8c1d8 solid 3px;
+      border-bottom: #b8c1d8 solid 3px;
+      transform: rotate(-5deg);
+      transform-origin: top right; }
+    .lolidress > .dress > .up > .bass.white {
+      background-color: #fff;
+      width: 122.8571428571px;
+      height: 192px;
+      right: 0;
+      top: 191.1111111111px;
+      position: absolute;
+      border-top-left-radius: 10%;
+      border-bottom-left-radius: 80%;
+      z-index: 90; }
+      .lolidress > .dress > .up > .bass.white::before {
+        content: "";
+        width: 125.8571428571px;
+        height: 195px;
+        right: 0;
+        top: 191.1111111111px;
+        position: absolute;
+        top: 0;
+        border-top-left-radius: 10%;
+        border-bottom-left-radius: 80%;
+        border-left: 6px #f0f0f0 dotted;
+        border-bottom: 6px #f0f0f0 dotted; }
+      .lolidress > .dress > .up > .bass.white::after {
+        content: "";
+        width: 124.8571428571px;
+        height: 194px;
+        right: 0;
+        top: 191.1111111111px;
+        position: absolute;
+        top: 0;
+        border-top-left-radius: 10%;
+        border-bottom-left-radius: 80%;
+        border-left: 4px #f0f0f0 dotted;
+        border-bottom: 4px #f0f0f0 dotted; }
+      .lolidress > .dress > .up > .bass.white > .crossribbon {
+        width: 40.8px;
+        height: 120px;
+        transform-origin: top right;
+        transform: rotate(10deg);
+        right: 24px;
+        position: absolute;
+        z-index: 50;
+        top: 48px; }
+        .lolidress > .dress > .up > .bass.white > .crossribbon > .ribbon > .top {
+          position: relative;
+          border-top: #D1D7E6 8px solid;
+          height: 42.3529411765px; }
+          .lolidress > .dress > .up > .bass.white > .crossribbon > .ribbon > .top::before {
+            content: "";
+            display: block;
+            width: 140%;
+            height: 8px;
+            background: #D1D7E6;
+            position: absolute;
+            transform-origin: top right;
+            transform: rotate(-50deg);
+            border-radius: 5rem;
+            top: -6px;
+            right: 4.8px; }
+          .lolidress > .dress > .up > .bass.white > .crossribbon > .ribbon > .top::after {
+            content: "";
+            display: block;
+            width: 140%;
+            height: 8px;
+            background: #D1D7E6;
+            position: absolute;
+            transform-origin: top left;
+            transform: rotate(50deg);
+            border-radius: 5rem;
+            top: -6px;
+            left: 4.8px; }
+        .lolidress > .dress > .up > .bass.white > .crossribbon > .ribbon > .middle,
+        .lolidress > .dress > .up > .bass.white > .crossribbon > .ribbon > .bottom {
+          position: relative;
+          height: 34.2857142857px; }
+          .lolidress > .dress > .up > .bass.white > .crossribbon > .ribbon > .middle::before,
+          .lolidress > .dress > .up > .bass.white > .crossribbon > .ribbon > .bottom::before {
+            content: "";
+            display: block;
+            width: 140%;
+            height: 8px;
+            background: #D1D7E6;
+            position: absolute;
+            transform-origin: top right;
+            transform: rotate(-50deg);
+            border-radius: 5rem;
+            top: -6px;
+            right: 4.8px; }
+          .lolidress > .dress > .up > .bass.white > .crossribbon > .ribbon > .middle::after,
+          .lolidress > .dress > .up > .bass.white > .crossribbon > .ribbon > .bottom::after {
+            content: "";
+            display: block;
+            width: 140%;
+            height: 8px;
+            background: #D1D7E6;
+            position: absolute;
+            transform-origin: top left;
+            transform: rotate(50deg);
+            border-radius: 5rem;
+            top: -6px;
+            left: 4.8px; }
+        .lolidress > .dress > .up > .bass.white > .crossribbon > .lace > .left::before {
+          content: "";
+          width: 10px;
+          height: 120px;
+          position: absolute;
+          top: 0;
+          border-left: 8px #f0f0f0 dotted;
+          z-index: 60; }
+        .lolidress > .dress > .up > .bass.white > .crossribbon > .lace > .left::after {
+          content: "";
+          width: 4px;
+          height: 120px;
+          background-color: #f0f0f0;
+          border-left: #fff solid 1.5px;
+          border-right: #fff solid 1.5px;
+          position: absolute;
+          top: 0;
+          z-index: 60; }
+        .lolidress > .dress > .up > .bass.white > .crossribbon > .lace > .right::before {
+          content: "";
+          width: 10px;
+          height: 120px;
+          position: absolute;
+          top: 0;
+          right: 0;
+          border-left: 8px #f0f0f0 dotted;
+          z-index: 60; }
+        .lolidress > .dress > .up > .bass.white > .crossribbon > .lace > .right::after {
+          content: "";
+          width: 4px;
+          height: 120px;
+          background-color: #f0f0f0;
+          border-left: #fff solid 1.5px;
+          border-right: #fff solid 1.5px;
+          position: absolute;
+          top: 0;
+          right: 0;
+          z-index: 60; }
+      .lolidress > .dress > .up > .bass.white > .ribbon {
+        position: relative;
+        height: 100px;
+        top: -630px; }
+        .lolidress > .dress > .up > .bass.white > .ribbon > .up {
+          position: absolute;
+          width: 50px;
+          height: 60px;
+          bottom: 0px;
+          right: 0;
+          z-index: 90; }
+          .lolidress > .dress > .up > .bass.white > .ribbon > .up::before {
+            display: block;
+            content: "";
+            width: 74.4px;
+            height: 36px;
+            background-color: #D1D7E6;
+            border-top-right-radius: 120%;
+            border-top-left-radius: 60%;
+            border-bottom-left-radius: 30%;
+            border-top: 2px #b8c1d8 solid;
+            border-left: 2px #b8c1d8 solid;
+            border-bottom: 2px #b8c1d8 solid;
+            position: absolute;
+            transform-origin: center right;
+            transform: rotate(15deg);
+            right: 0;
+            top: 10px;
+            z-index: 90; }
+          .lolidress > .dress > .up > .bass.white > .ribbon > .up::after {
+            z-index: 90;
+            display: block;
+            content: "";
+            width: 81.6px;
+            height: 48px;
+            background-color: #D1D7E6;
+            border-top-right-radius: 120%;
+            border-bottom-right-radius: 120%;
+            border-bottom-left-radius: 30%;
+            border-left: 2px #b8c1d8 solid;
+            border-bottom: 2px #b8c1d8 solid;
+            position: absolute;
+            transform-origin: center right;
+            transform: rotate(15deg);
+            right: 0;
+            bottom: -18px; }
+        .lolidress > .dress > .up > .bass.white > .ribbon > .down {
+          position: absolute;
+          width: 120px;
+          height: 60px;
+          top: 50px;
+          right: -7.2px;
+          background-color: #D1D7E6;
+          border-top-right-radius: 12%;
+          border-top-left-radius: 30%;
+          border-bottom-right-radius: 160%;
+          border-bottom-left-radius: 12%;
+          border-top: 2px #b8c1d8 solid;
+          border-left: 2px #b8c1d8 solid;
+          border-bottom: 2px #b8c1d8 solid;
+          transform-origin: center right;
+          transform: rotate(-55deg);
+          z-index: 80; }
+      .lolidress > .dress > .up > .bass.white > .bear {
+        width: 100%;
+        height: 24px;
+        position: relative;
+        z-index: 100;
+        top: -680px;
+        left: 0; }
+        .lolidress > .dress > .up > .bass.white > .bear > .ear {
+          width: 24px;
+          height: 24px;
+          right: 8px;
+          position: absolute;
+          background-color: #fff;
+          background-image: radial-gradient(#ccc 30%, transparent 30%);
+          background-size: 3px 3px;
+          background-repeat: repeat;
+          border-radius: 50%; }
+        .lolidress > .dress > .up > .bass.white > .bear > .head {
+          width: 24px;
+          height: 48px;
+          right: 0;
+          position: absolute;
+          background-color: #fff;
+          background-image: radial-gradient(#ccc 30%, transparent 30%);
+          background-size: 3px 3px;
+          background-repeat: repeat;
+          border-top-left-radius: 5rem;
+          border-bottom-left-radius: 5rem;
+          z-index: 110; }
+          .lolidress > .dress > .up > .bass.white > .bear > .head > .eye {
+            width: 6px;
+            height: 8px;
+            right: 6px;
+            top: 24px;
+            position: absolute;
+            background-color: #000;
+            border-radius: 50%; }
+          .lolidress > .dress > .up > .bass.white > .bear > .head > .nose {
+            width: 2px;
+            height: 6px;
+            right: 0;
+            top: 32px;
+            position: absolute;
+            background-color: #000;
+            background-size: 3px 3px;
+            background-repeat: repeat;
+            border-top-left-radius: 5rem;
+            border-bottom-left-radius: 5rem; }
+          .lolidress > .dress > .up > .bass.white > .bear > .head > .mouth {
+            position: absolute;
+            font-size: 12px;
+            text-align: center;
+            right: -25%;
+            top: 60%; }
+        .lolidress > .dress > .up > .bass.white > .bear > .ribbon::after {
+          content: "";
+          display: block;
+          position: absolute;
+          z-index: 120;
+          width: 6px;
+          height: 10px;
+          right: 0;
+          top: 48px;
+          z-index: 130;
+          background: linear-gradient(90deg, rgba(87, 107, 255, 0.5) 50%, transparent 50%), linear-gradient(rgba(54, 23, 255, 0.5) 50%, transparent 50%);
+          background-size: 2px 2px;
+          border-top-left-radius: 30%;
+          border-bottom-left-radius: 100%;
+          background-color: #fff; }
+        .lolidress > .dress > .up > .bass.white > .bear > .ribbon > .up {
+          display: block;
+          position: absolute;
+          z-index: 120;
+          width: 24px;
+          height: 8px;
+          right: 0;
+          top: 45px;
+          transform: rotate(20deg);
+          background: linear-gradient(90deg, rgba(87, 107, 255, 0.5) 50%, transparent 50%), linear-gradient(rgba(54, 23, 255, 0.5) 50%, transparent 50%);
+          background-color: #fff;
+          background-size: 5px 5px;
+          border-radius: 10%; }
+        .lolidress > .dress > .up > .bass.white > .bear > .ribbon > .down {
+          display: block;
+          position: absolute;
+          z-index: 120;
+          width: 32px;
+          height: 8px;
+          right: 0;
+          top: 45px;
+          transform-origin: right;
+          transform: rotate(-60deg);
+          background: linear-gradient(90deg, rgba(87, 107, 255, 0.5) 50%, transparent 50%), linear-gradient(rgba(54, 23, 255, 0.5) 50%, transparent 50%);
+          background-color: #fff;
+          background-size: 5px 5px;
+          border-radius: 20%;
+          border-bottom-right-radius: 100%; }
+        .lolidress > .dress > .up > .bass.white > .bear > .arm {
+          position: absolute;
+          transform-origin: top;
+          transform: rotate(45deg);
+          top: 50px;
+          right: 0;
+          width: 24px;
+          height: 32px;
+          border-radius: 50%;
+          background-color: #fff;
+          background-image: radial-gradient(#ccc 30%, transparent 30%);
+          background-size: 3px 3px;
+          background-repeat: repeat; }
+        .lolidress > .dress > .up > .bass.white > .bear > .body {
+          top: 50px;
+          width: 16px;
+          height: 38px;
+          right: 0;
+          position: absolute;
+          background-color: #fff;
+          background-image: radial-gradient(#ccc 30%, transparent 30%);
+          background-size: 3px 3px;
+          background-repeat: repeat;
+          border-top-left-radius: 5rem;
+          border-bottom-left-radius: 5rem; }
+        .lolidress > .dress > .up > .bass.white > .bear > .foot {
+          position: absolute;
+          transform-origin: top;
+          transform: rotate(20deg);
+          top: 70px;
+          right: 0;
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          background-color: #fff;
+          background-image: radial-gradient(#ccc 30%, transparent 30%);
+          background-size: 3px 3px;
+          background-repeat: repeat; }
+    .lolidress > .dress > .up > .arm {
+      position: absolute;
+      top: 230px;
+      right: 80px;
+      width: 100px;
+      height: 620px;
+      background-color: #D1D7E6;
+      transform-origin: top center;
+      transform: rotate(25deg);
+      border-radius: 20%; }
+      .lolidress > .dress > .up > .arm > .lace {
+        position: absolute;
+        width: 120%;
+        height: 400px;
+        top: 200px;
+        right: -10%;
+        border-radius: 20%; }
+        .lolidress > .dress > .up > .arm > .lace > .top {
+          width: 100%;
+          height: 50px;
+          position: absolute;
+          background: #D1D7E6;
+          border-radius: 50%;
+          z-index: 130;
+          border-bottom: #b8c1d8 dotted 3px; }
+          .lolidress > .dress > .up > .arm > .lace > .top > .sea {
+            position: absolute;
+            top: -30px; }
+        .lolidress > .dress > .up > .arm > .lace > .middle {
+          position: absolute;
+          width: 120%;
+          right: -10%;
+          height: 400px;
+          background: #D1D7E6;
+          border-radius: 50%;
+          z-index: 120; }
+          .lolidress > .dress > .up > .arm > .lace > .middle > .c0 {
+            position: absolute;
+            width: 25%;
+            height: 400px;
+            border-right: #b8c1d8 solid 3px;
+            border-left: #b8c1d8 solid 3px;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            border-radius: 50%; }
+          .lolidress > .dress > .up > .arm > .lace > .middle > .c1 {
+            position: absolute;
+            width: 60%;
+            height: 400px;
+            border-right: #b8c1d8 solid 3px;
+            border-left: #b8c1d8 solid 3px;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            border-radius: 50%; }
+          .lolidress > .dress > .up > .arm > .lace > .middle .c2 {
+            position: absolute;
+            width: 85%;
+            height: 400px;
+            border-right: #b8c1d8 solid 3px;
+            border-left: #b8c1d8 solid 3px;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            border-radius: 50%; }
+        .lolidress > .dress > .up > .arm > .lace .bottom {
+          width: 70%;
+          height: 120px;
+          background-color: #fff;
+          position: absolute;
+          bottom: -80px;
+          left: 10px;
+          right: 0;
+          margin: 0 auto;
+          z-index: 100;
+          border-top: #D1D7E6 solid 40px;
+          border-radius: 20%;
+          transform: skew(10deg); }
+    .lolidress > .dress .down {
+      position: relative;
+      top: 450px;
+      height: 750px; }
+      .lolidress > .dress .down .bass {
+        position: absolute;
+        width: 60%;
+        height: 620px;
+        right: 0;
+        top: -0px;
+        background-color: green;
+        border-top-left-radius: 70%;
+        border-bottom-left-radius: 10%; }
+        .lolidress > .dress .down .bass .c0 {
+          position: absolute;
+          width: 48px;
+          height: 600px;
+          right: 0;
+          background-color: #D1D7E6; }
+        .lolidress > .dress .down .bass .c1 {
+          position: absolute;
+          width: 48px;
+          height: 600px;
+          right: 9px;
+          background-color: #D1D7E6;
+          transform-origin: top center;
+          transform: rotate(3deg); }
+        .lolidress > .dress .down .bass .c2 {
+          position: absolute;
+          width: 48px;
+          height: 600px;
+          right: 18px;
+          background-color: #D1D7E6;
+          transform-origin: top center;
+          transform: rotate(6deg); }
+        .lolidress > .dress .down .bass .c3 {
+          position: absolute;
+          width: 48px;
+          height: 600px;
+          right: 27px;
+          background-color: #D1D7E6;
+          transform-origin: top center;
+          transform: rotate(9deg); }
+        .lolidress > .dress .down .bass .c4 {
+          position: absolute;
+          width: 48px;
+          height: 600px;
+          right: 36px;
+          background-color: #D1D7E6;
+          transform-origin: top center;
+          transform: rotate(12deg); }
+        .lolidress > .dress .down .bass .c5 {
+          position: absolute;
+          width: 48px;
+          height: 600px;
+          right: 45px;
+          background-color: #D1D7E6;
+          transform-origin: top center;
+          transform: rotate(15deg); }
+        .lolidress > .dress .down .bass .c6 {
+          position: absolute;
+          width: 48px;
+          height: 600px;
+          right: 54px;
+          background-color: #D1D7E6;
+          transform-origin: top center;
+          transform: rotate(18deg); }
+        .lolidress > .dress .down .bass .c7 {
+          position: absolute;
+          width: 48px;
+          height: 600px;
+          right: 63px;
+          background-color: #D1D7E6;
+          transform-origin: top center;
+          transform: rotate(21deg); }
+        .lolidress > .dress .down .bass .c8 {
+          position: absolute;
+          width: 48px;
+          height: 600px;
+          right: 72px;
+          background-color: #D1D7E6;
+          transform-origin: top center;
+          transform: rotate(24deg); }
+        .lolidress > .dress .down .bass .c9 {
+          position: absolute;
+          width: 48px;
+          height: 600px;
+          right: 81px;
+          background-color: #D1D7E6;
+          transform-origin: top center;
+          transform: rotate(27deg); }
+        .lolidress > .dress .down .bass .c10 {
+          position: absolute;
+          width: 48px;
+          height: 600px;
+          right: 90px;
+          background-color: #D1D7E6;
+          transform-origin: top center;
+          transform: rotate(30deg);
+          border-bottom-left-radius: 60%; }
+      .lolidress > .dress .down > .lace.length {
+        position: absolute;
+        right: 28px;
+        transform: rotate(16deg);
+        transform-origin: top center; }
+        .lolidress > .dress .down > .lace.length > .c {
+          width: 42.8571428571px;
+          height: 42.8571428571px;
+          font-size: 12px;
+          text-align: center;
+          position: relative;
+          color: #fff;
+          border-top: dotted 3px white;
+          border-left: dotted 1.5px white;
+          border-right: dotted 1.5px white;
+          border-bottom: dotted 3px white;
+          border-bottom-left-radius: 50%;
+          border-bottom-right-radius: 50%;
+          border-top-left-radius: 5%;
+          border-top-right-radius: 5%;
+          transform: rotate(90deg); }
+          .lolidress > .dress .down > .lace.length > .c > .square {
+            height: 26.3571428571px;
+            width: 42.8571428571px;
+            line-height: 1; }
+            .lolidress > .dress .down > .lace.length > .c > .square > .number {
+              border-bottom: dotted 3px white;
+              border-bottom-left-radius: 50%;
+              border-bottom-right-radius: 50%; }
+            .lolidress > .dress .down > .lace.length > .c > .square > .subject {
+              border-bottom: dotted 3px white;
+              border-bottom-left-radius: 50%;
+              border-bottom-right-radius: 50%;
+              height: 12.8571428571px;
+              width: 42.8571428571px; }
+              .lolidress > .dress .down > .lace.length > .c > .square > .subject > .left {
+                height: 12.8571428571px;
+                width: 14.2857142857px;
+                left: 0;
+                position: absolute; }
+              .lolidress > .dress .down > .lace.length > .c > .square > .subject > .center {
+                height: 12.8571428571px;
+                width: 14.2857142857px;
+                position: absolute;
+                margin: 0 auto;
+                left: 0;
+                right: 0; }
+              .lolidress > .dress .down > .lace.length > .c > .square > .subject > .right {
+                height: 12.8571428571px;
+                width: 14.2857142857px;
+                position: absolute;
+                right: 0; }
+          .lolidress > .dress .down > .lace.length > .c > .arch {
+            height: 16.5px;
+            width: 42.8571428571px;
+            border-bottom: dotted 3px white;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%; }
+
+/*# sourceMappingURL=style.css.map */
